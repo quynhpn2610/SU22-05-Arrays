@@ -4,6 +4,7 @@ public class Lala {
     private static boolean isOK(int[] arr){
         int count = 0;
         int limit = 3;
+        if (arr[arr.length-1] == 0) return false;
         for (int i:
              arr) {
             if(i == 0){
